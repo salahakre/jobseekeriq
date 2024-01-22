@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>reqruitIQ</title>
+    <style>
+
+
+        form {
+            
+            display: inline-grid;
+             
+             height: 50%;
+             width: 100%;
+             
+             place-items: center;
+             background-color: orangered;
+             background-size: auto;
+            box-shadow: 20px;
+            border-radius: 20px;
+            color: white;
+         
+         }
+</style>
+<header>
+  <div class="centered-container">
+        <h1 class="title">Reqruit Here</h1></div>
+        
+
+<nav>
+    <button ><a href="index.html"> Home</a></button>
+    <button><a href="about.html">About</a>
+
+</nav>
+</header>
+</head>
+
+<body>
+
+
+ 
+     
+ 
+    
+<div id="modal" class="modal-overlay">
+
+        <!-- Modal Content -->
+        <div class="modal-content">
+            
+            <section id="contact">
+                <h2>Recruit an employee</h2>
+                <!-- Contact Form -->
+                <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
+    </div>
+    <p>you can send on whatsapp as well.</p>
+<button onclick="sendWhatsAppMessage()">WhatsApp</button>
+
+     
+</body>
+ <script>
+        function sendWhatsAppMessage() {
+            // Replace "1234567890" with your actual phone number, including the country code
+            var phoneNumber = '+9647502079500';
+
+            // Create the WhatsApp link
+            var whatsappLink = 'https://wa.me/' + phoneNumber;
+
+            // Open the link in a new window or tab
+            window.open(whatsappLink, '_blank');
+        }
+    </script>
+     <section class="se">
+<h3>
+      <P>You can Reqruit employee here by sending us what is your job about and what skills are needed for and degree.
+      
+
+
+      </p>
+      
+     <p>
+         هنا يمكنك تعيين موظف  عن طريق ارسالنا  معلومات العمل و المهارات الشهاده المطلوبه
+     </p>
+     <p>
+     lera datwani hali kart pesh kas ba kasani lehatu bkay ba regay nardni zanyare ishakat wa pedawisti wargrtn.   
+     </p></h3>   
+     </section>
+ 
+</html>

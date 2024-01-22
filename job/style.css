@@ -1,0 +1,61 @@
+header{
+	background-color: orangered;
+	width: 1390px;
+	margin: -10px;
+	color: white;
+	height: 100px;
+	margin-top: -20px;
+
+}
+img{
+    margin:0;
+    max-width: 200px;
+    max-height: 95px;
+    width: 250px;
+}
+
+.se{
+	margin-bottom: 28px;
+	color: black;
+	
+	width: 120%;
+	height: 45px;
+
+}
+nav a{
+	background-color: orangered;
+	color: white;
+    text-align: center;
+    margin-right
+}
+.line{
+	width: 120%;
+	height: 3px;
+	background-color: black;
+	margin-left: -60px;
+}
+main{
+	container: initial;
+	margin-bottom: 200px;
+}
+
+	
+button{
+	box-shadow: 0,0,12px;
+	background-color: orangered;
+	text-align: center;
+	margin: 0;
+	height: 23px;
+	color: white;
+}
+.centered-container{
+text-align: center;
+color: white;
+font-family: serif;
+font-size: 16px;
+
+
+}
+h3{
+
+}
